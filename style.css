@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    background-color: peru;
 }
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
@@ -36,7 +37,9 @@ body {
     padding: 5em 1.5em 1.5em;
 }
 .icon {
-    max-width: 10em;
+    width: 20em;
+    height: 35em;
+
 }
 iframe {
     width: 50em;
@@ -54,3 +57,4 @@ button:hover {
     background-color: #C8C6C6;
     cursor: pointer;
 }
+
